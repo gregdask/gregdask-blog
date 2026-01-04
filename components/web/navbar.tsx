@@ -8,6 +8,7 @@ import { toast } from "sonner";
 import { useRouter } from "next/navigation";
 import { SearchInput } from "./searchInput";
 import { ThemeProvider } from "../ui/theme-provider";
+import { ModeToggle } from "./theme-toggle";
 
 
 export function Navbar() {
@@ -70,7 +71,7 @@ export function Navbar() {
                         </Link>
                     </>
                 )}
-                <ThemeProvider />
+                <ModeToggle />
             </div>
         </nav>
     );
