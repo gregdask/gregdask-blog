@@ -83,7 +83,7 @@ export function Navbar() {
                     </h1>
                 </Link>
 
-                <div className="flex items-center gap-2">
+                <div className="md:flex items-center gap-2 hidden">
                     <Link className={buttonVariants({ variant: "ghost" })} href="/">
                         Home
                     </Link>
