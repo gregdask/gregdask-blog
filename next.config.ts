@@ -10,11 +10,18 @@ const nextConfig: NextConfig = {
         protocol: "https",
         port: ""
       },
+      //production
       {
-        hostname: "giddy-greyhound-267.convex.cloud",
+        hostname: "diligent-nightingale-615.convex.site",
         protocol: "https",
         port: ""
       }
+      // development
+      // {
+      //   hostname: "giddy-greyhound-267.convex.cloud",
+      //   protocol: "https",
+      //   port: ""
+      // }
     ]
   }
 };
