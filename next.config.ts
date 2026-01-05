@@ -12,7 +12,7 @@ const nextConfig: NextConfig = {
       },
       //production
       {
-        hostname: "diligent-nightingale-615.convex.site",
+        hostname: "diligent-nightingale-615.convex.cloud",
         protocol: "https",
         port: ""
       }
